@@ -12,6 +12,10 @@ section h2 {
   margin: auto;
 }
 
+#portfolio h3 {
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
 /***** GRID *****/
 
 .full-width {
@@ -79,8 +83,29 @@ nav ul li a {
   color: #ffffff;
 }
 
+
+
 article {
   height: 500px;
+  margin: auto;
+}
+
+#jub-left {
+  text-align: right;
+  box-sizing: border-box;
+  padding-right: 50px;
+}
+
+#rogue-image {
+  margin-top: 25px;
+}
+
+#jubilee-image {
+  margin-top: 25px;
+}
+
+#recipe-image {
+  margin-top: 25px;
 }
 
 /***** ABOUT *****/
