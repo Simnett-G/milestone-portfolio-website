@@ -3,6 +3,34 @@ body {
   font-family: 'Encode Sans', sans-serif;
 }
 
+section h2 {
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 36px;
+  color: #fa0075;
+  height: 150px;
+  margin: auto;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  margin: 0 auto;
+  float: left;
+}
+
 /***** HEADER *****/
 
 header {
@@ -51,6 +79,10 @@ nav ul li a {
   color: #ffffff;
 }
 
+article {
+  height: 500px;
+}
+
 /***** ABOUT *****/
 
 #about {
@@ -59,21 +91,4 @@ nav ul li a {
 
 footer {
   height: 400px;
-}
-
-.full-width {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.half-width {
-  width: 600px;
-  margin: 0 auto;
-  float: left;
-}
-
-.third-width {
-  width: 400px;
-  margin: 0 auto;
-  float: left;
 }
