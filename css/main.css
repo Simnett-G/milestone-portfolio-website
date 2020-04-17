@@ -1,0 +1,79 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Encode Sans', sans-serif;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 800px;
+  background-image: url('../img/mac-background.jpg');
+  background-size: cover;
+  color: #ffffff;
+}
+
+header h1 {
+  font-size: 30px;
+}
+
+header h2 {
+  font-size: 72px;
+  font-family: 'Source Code Pro', monospace;
+  float: left;
+  padding-left: 1em;
+}
+
+header h2 span {
+  color: #fa0075;
+}
+
+header nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: lowercase;
+  text-decoration: none;
+  font-size: 30px;
+  padding-left: 45px;
+  color: #ffffff;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+  height: 1550px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/***** ABOUT *****/
+
+#about {
+  height: 550px;
+}
+
+footer {
+  height: 400px;
+}
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  margin: 0 auto;
+  float: left;
+}
