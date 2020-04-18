@@ -95,7 +95,7 @@ nav ul li a {
 }
 
 article {
-  height: 500px;
+  height: 450px;
   margin: auto;
 }
 
@@ -133,11 +133,41 @@ article {
 
 #about {
   height: 550px;
-  background-image: url('../img/joe2.jpg');
-  background-size: cover;
+  background-color: #b4b2af;
   color: #ffffff
+}
+
+#about h2 {
+  padding-top: 50px;
+  height: 100px;
+}
+
+#about-img {
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+#about-left {
+  padding-left: 50px;
+  box-sizing: border-box;
+  line-height: 1.6;
 }
 
 footer {
   height: 400px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+footer h2 {
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 36px;
+  color: #fa0075;
+  height: 150px;
+  margin: auto;
+}
+
+h2 {
+  padding-top: 50px;
 }
