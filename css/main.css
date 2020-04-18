@@ -12,9 +12,7 @@ section h2 {
   margin: auto;
 }
 
-#portfolio h3 {
-  font-family: 'Encode Sans Expanded', sans-serif;
-}
+
 
 /***** GRID *****/
 
@@ -83,35 +81,61 @@ nav ul li a {
   color: #ffffff;
 }
 
+#portfolio h3 {
+  font-family: 'Encode Sans Expanded', sans-serif;
+  font-weight: bold;
+}
 
+#portfolio h4 {
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#portfolio p {
+  line-height: 1.6;
+}
 
 article {
   height: 500px;
   margin: auto;
 }
 
+#rogue-right {
+  padding-top: 75px;
+}
+
 #jub-left {
   text-align: right;
   box-sizing: border-box;
+  padding-top: 75px;
   padding-right: 50px;
+}
+
+#rec-right {
+  padding-top: 100px;
 }
 
 #rogue-image {
   margin-top: 25px;
+  border: 3px solid #fa0075;
 }
 
 #jubilee-image {
   margin-top: 25px;
+  border: 3px solid #fa0075;
 }
 
 #recipe-image {
   margin-top: 25px;
+  border: 3px solid #fa0075;
 }
 
 /***** ABOUT *****/
 
 #about {
   height: 550px;
+  background-image: url('../img/joe2.jpg');
+  background-size: cover;
+  color: #ffffff
 }
 
 footer {
