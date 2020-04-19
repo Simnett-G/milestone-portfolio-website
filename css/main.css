@@ -39,7 +39,7 @@ header {
   height: 800px;
   background-image: url('../img/mac-background.jpg');
   background-size: cover;
-  color: #ffffff;
+  color: #b4b2af;
 }
 
 header h1 {
@@ -70,7 +70,7 @@ nav ul li a {
   text-decoration: none;
   font-size: 30px;
   padding-left: 45px;
-  color: #ffffff;
+  color: #b4b2af;
 }
 
 /***** PORTFOLIO *****/
@@ -78,7 +78,7 @@ nav ul li a {
 #portfolio {
   height: 1550px;
   background-color: #000000;
-  color: #ffffff;
+  color: #b4b2af;
 }
 
 #portfolio h3 {
@@ -92,6 +92,7 @@ nav ul li a {
 
 #portfolio p {
   line-height: 1.6;
+  font-weight: bolder;
 }
 
 article {
@@ -114,18 +115,18 @@ article {
   padding-top: 100px;
 }
 
-#rogue-image {
-  margin-top: 25px;
+ #rogue-img {
+  margin-top: 30px;
   border: 3px solid #fa0075;
 }
 
-#jubilee-image {
-  margin-top: 25px;
+#jub-img {
+  margin-top: 30px;
   border: 3px solid #fa0075;
 }
 
-#recipe-image {
-  margin-top: 25px;
+#rec-img {
+  margin-top: 30px;
   border: 3px solid #fa0075;
 }
 
@@ -134,17 +135,19 @@ article {
 #about {
   height: 550px;
   background-color: #b4b2af;
-  color: #ffffff
+  color: #000000;
+  font-family: 'Encode Sans Expanded', sans-serif;
 }
 
 #about h2 {
   padding-top: 50px;
   height: 100px;
+  font-weight: 600;
 }
 
 #about-img {
   margin-top: 10px;
-  margin-left: 150px;
+  margin-left: 250px;
 }
 
 #about-left {
@@ -153,10 +156,16 @@ article {
   line-height: 1.6;
 }
 
+#about p {
+  font-weight: 500;
+}
+
+/***** FOOTER *****/
+
 footer {
   height: 400px;
   background-color: #000000;
-  color: #ffffff;
+  color: #b4b2af;
 }
 
 footer h2 {
@@ -168,6 +177,26 @@ footer h2 {
   margin: auto;
 }
 
-h2 {
+#footer h2 {
   padding-top: 50px;
+}
+
+#footer {
+  text-align: center;
+}
+
+#hire-me a {
+  color: #fa0075;
+}
+
+#follow-me ul {
+  padding-left: 0px;
+}
+
+#twit-link {
+  padding-left: 0px;
+}
+
+#follow-me img {
+  background-color: #000000;
 }
