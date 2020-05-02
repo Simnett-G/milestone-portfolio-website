@@ -160,6 +160,15 @@ article {
   font-weight: 500;
 }
 
+figcaption {
+  text-align: center;
+  padding-left: 190px;
+}
+
+figure {
+  margin: auto;
+}
+
 /***** FOOTER *****/
 
 footer {
